@@ -1,0 +1,16 @@
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\bin\Debug\Shapes.exe.config
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\bin\Debug\Shapes.exe
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\bin\Debug\Shapes.pdb
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\MainWindow.baml
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\MainWindow.g.cs
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\App.g.cs
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.cache
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.g.resources
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.Properties.Resources.resources
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.csproj.GenerateResource.Cache
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.exe
+c:\users\valentin\documents\visual studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes.pdb
+C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\bin\Debug\ColorBox.dll
+C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\obj\Debug\Shapes_MarkupCompile.lref

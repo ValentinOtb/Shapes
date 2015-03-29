@@ -1,0 +1,91 @@
+﻿<Window x:Name="mainWindow" x:Class="Shapes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ncore="clr-namespace:Shapes"
+        Title="MainWindow" Height="350" Width="525" Margin="0">
+    <Grid x:Name="MyGrid">
+        <Canvas x:Name="myCanvas" RenderTransformOrigin="0.5,0.5" MouseRightButtonDown="myCanvas_MouseRightButtonDown" Margin="0,30,0,0" Background="White" MouseDown="myCanvas_MouseDown">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+        </Canvas>
+        <ToolBarTray x:Name="ToolBarTray1" Height="30" VerticalAlignment="Top">
+            <ToolBar x:Name="ToolBar1" Height="30" VerticalAlignment="Bottom" Margin="0,0,-316,-17" Background="{x:Null}">
+                <Button x:Name="Circle" Width="25" Height="25" Margin="5,0,0,0" Click="Circle_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\circle.png" RenderTransformOrigin="0.5,0.5" >
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="0.95" ScaleY="0.95"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+                <Button x:Name="Ellipse" Width="25" Height="25" Margin="3,0,0,0"  Click="Ellipse_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\circle.png" RenderTransformOrigin="0.5,0.5" >
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="1.1" ScaleY="0.9"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+                <Button x:Name="Line" Width="25" Height="25" Margin="3,0,0,0" Click="Line_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\line.png" RenderTransformOrigin="0.5,0.5" >
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="2" ScaleX="1.3"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+                <Button x:Name="Pentagon" Width="25" Height="25" Margin="3,0,0,0" Click="Pentagon_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\pentagon.png" />
+                </Button>
+                <Button x:Name="Rectangle" Width="25" Height="25" Margin="3,0,0,0" Click="Rectangle_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\rhombus.png" RenderTransformOrigin="0.5,0.5" >
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="0.8"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+                <Button x:Name="Rhombus" Width="25" Height="25" Margin="3,0,0,0" Click="Rhombus_Click">
+                    <Image  Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\rhombus.png" RenderTransformOrigin="0.5,0.5" >
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="0.8" ScaleY="0.8"/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="45"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+                <Button x:Name="Triangle" Width="25" Height="25" Margin="3,0,0,0" Click="Triangle_Click">
+                    <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\triangle.png" />
+                </Button>
+                <ncore:Palette x:Name="Palette" ColorChanged="Palette_ColorChanged">
+                    
+                </ncore:Palette>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>
