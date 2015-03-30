@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    public class Line_ : Shape_
+    public class Line_ : Shape_, IDrawable
     {
         private Point firstPoint = new Point();
         private Point secondPoint = new Point();
@@ -46,7 +46,7 @@ namespace Shapes
             get { return length; }
         }
 
-        private void CalculateProperties()
+        protected override void CalculateProperties()
         {
             length = Point.Subtract(firstPoint, secondPoint).Length;
         }

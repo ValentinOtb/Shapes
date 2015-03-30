@@ -15,16 +15,26 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    class Pentagon_ : Shape_
+    class Pentagon_ : Shape_, IClosable, IDrawable
     {
-        //private double area;
-        //private double perimeter;
+        private double area;
+        private double perimeter;
         private Point firstPoint = new Point();
         private Point secondPoint = new Point();
         private Point thirdPoint = new Point();
         private Point fourthPoint = new Point();
         private Point fifthPoint = new Point();
         public const int definingPointsCount = 5;
+
+        public double Area
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public double Perimeter
+        {
+            get { throw new NotImplementedException(); }
+        }
 
         public Pentagon_(Point firstPoint,
             Point secondPoint, Point thirdPoint,
@@ -48,11 +58,6 @@ namespace Shapes
             this.StrokeColor = Brushes.Black;
 
             CalculateProperties();
-        }
-
-        private void CalculateProperties()
-        {
-
         }
 
         public override void SetPointsViaList(List<Point> points)

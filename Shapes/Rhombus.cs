@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    public class Rhombus_ : Shape_
+    public class Rhombus_ : Shape_, IClosable, IDrawable
     {
         private double area;
         private double perimeter;
@@ -55,7 +55,7 @@ namespace Shapes
             get { return perimeter; }
         }
 
-        private void CalculateProperties()
+        protected override void CalculateProperties()
         {
             perimeter = 4 * side;
 

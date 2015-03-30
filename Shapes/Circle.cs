@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    public class Circle_ : Shape_
+    public class Circle_ : Shape_, IClosable, IDrawable
     {
         private double area;
         private double perimeter;
@@ -53,7 +53,7 @@ namespace Shapes
             get { return perimeter; }
         }
 
-        private void CalculateProperties()
+        protected override void CalculateProperties()
         {
             double pi = 3.14;
             area = pi * radius * radius;

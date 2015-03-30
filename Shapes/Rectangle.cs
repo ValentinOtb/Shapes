@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    public class Rectangle_ : Shape_
+    public class Rectangle_ : Shape_, IClosable, IDrawable
     {
         private double area;
         private double perimeter;
@@ -56,7 +56,7 @@ namespace Shapes
             get { return perimeter; }
         }
 
-        private void CalculateProperties()
+        protected override void CalculateProperties()
         {
             perimeter = 2 * topSide + 2 * leftSide;
 

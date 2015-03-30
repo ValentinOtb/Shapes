@@ -83,6 +83,7 @@
     <Compile Include="Circle.cs" />
     <Compile Include="Ellipse.cs" />
     <Compile Include="IClosable.cs" />
+    <Compile Include="IDrawable.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="Palette.cs" />
     <Compile Include="Rectangle.cs" />

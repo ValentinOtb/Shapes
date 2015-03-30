@@ -15,7 +15,7 @@
             </Canvas.RenderTransform>
         </Canvas>
         <ToolBarTray x:Name="ToolBarTray1" Height="30" VerticalAlignment="Top">
-            <ToolBar x:Name="ToolBar1" Height="30" VerticalAlignment="Bottom" Margin="0,0,-316,-17" Background="{x:Null}">
+            <ToolBar x:Name="ToolBar1" Height="30" VerticalAlignment="Bottom" Margin="0,0,-245,-17" Background="{x:Null}">
                 <Button x:Name="Circle" Width="25" Height="25" Margin="5,0,0,0" Click="Circle_Click">
                     <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\circle.png" RenderTransformOrigin="0.5,0.5" >
                         <Image.RenderTransform>
@@ -82,7 +82,7 @@
                 <Button x:Name="Triangle" Width="25" Height="25" Margin="3,0,0,0" Click="Triangle_Click">
                     <Image Source="C:\Users\Valentin\Documents\Visual Studio 2013\Projects\Shapes\Shapes\triangle.png" />
                 </Button>
-                <ncore:Palette x:Name="Palette" ColorChanged="Palette_ColorChanged">
+                <ncore:Palette x:Name="Palette" ColorChanged="Palette_ColorChanged" Width="25" Height="25" Margin="3, 0, 0, 0" >
                     
                 </ncore:Palette>
             </ToolBar>

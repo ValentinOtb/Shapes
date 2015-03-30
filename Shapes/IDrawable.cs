@@ -15,13 +15,8 @@ using System.Windows.Shapes;
 
 namespace Shapes
 {
-    public abstract class Shape_
+    interface IDrawable
     {
-        public Brush BrushColor { get; set; }
-        public Brush StrokeColor { get; set; }
-        
-        public abstract UIElement UIEquivalent();
-        public abstract void SetPointsViaList(List<Point> points);
-        protected virtual void CalculateProperties() { }
+        UIElement UIEquivalent();
     }
 }
